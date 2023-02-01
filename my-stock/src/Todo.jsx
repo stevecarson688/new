@@ -11,7 +11,7 @@ const style = {
 
 }
 
-
+// this is the code backend to delete todo 
 const Todo = ({ todo, toggleComplete, deleteTodo }) => {
     return (
         <li className={todo.completed ? style.liComplete : style.li}>
